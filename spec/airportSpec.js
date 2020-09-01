@@ -29,8 +29,4 @@ describe("Airport", function () {
       expect(airport.planes).toEqual(["plane2"]);
     });
   });
-
-
-
-
 });
