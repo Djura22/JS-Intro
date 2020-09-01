@@ -17,5 +17,16 @@ describe("FizzBuzz", function () {
     });
   });
 
-  
+  describe("multiples of both 3 and 5", function () {
+    it("FizzBuzz for mults of 3 and 5", function () {
+      expect(fizzBuzz.play(15)).toEqual("FizzBuzz");
+    });
+  });
+
+  describe("not multiple of both 3 or 5", function () {
+    it("returns number for not mults of 3 and 5", function () {
+      expect(fizzBuzz.play(17)).toEqual(17);
+    });
+  });
+
 });
